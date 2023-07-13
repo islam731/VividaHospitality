@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Footer from './Pages/LandingPage/Footer'
 
 const Layout = ({children}) => {
   return (
@@ -8,6 +9,9 @@ const Layout = ({children}) => {
     <div>
     {children}
     </div>
+    <footer>
+      <Footer/>
+    </footer>
     </>
   )
 }

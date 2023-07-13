@@ -4,6 +4,7 @@ import Rewards from './Rewards'
 import Socials from './Socials'
 import WhyVivida from './WhyVivida'
 import Footer from './Footer'
+import Services from './Services'
 function App() {
 
   return (
@@ -15,17 +16,16 @@ function App() {
       <section class="bg-blue-950 py-7">
         <Socials/>
       </section>
-      <section>
+      <section class="m-5">
         <Rewards/>
       </section>
       <section class="bg-blue-950">
         <WhyVivida/>
       </section>
-      <footer>
-        <Footer/>
-      </footer>
+      <section class="m-5">
+        <Services/>
+      </section>
     </div>
-    
     </>
   )
 }
