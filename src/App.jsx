@@ -4,6 +4,7 @@ import LandingPage from './Components/Pages/LandingPage/LandingPage'
 import Layout from './Components/Layout';
 import WhyVivida from './Components/Pages/About/About'
 import Contact from './Components/Pages/Contact/Contact'
+import WhatWeOffer from './Components/Pages/WhatWeOffer/WhatWeOffer';
 import Partners from './Components/Pages/Partners/Partners'
 function App() {
 
@@ -12,9 +13,10 @@ function App() {
     <Layout>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/WhyUs" element={<WhyVivida /> } />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Partners" element={<Partners />} />
+        <Route path="/Why-Us" element={<WhyVivida /> } />
+        <Route path="/What-We-Offer" element={<WhatWeOffer /> } />
+        <Route path="/Contact-Us" element={<Contact />} />
+        <Route path="Our-Partners" element={<Partners />} />
       </Routes>
     </Layout>
     </>

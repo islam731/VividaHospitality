@@ -15,11 +15,11 @@ const Footer = () => {
         <div class="container pt-7">
         <h1 class="text-2xl mb-3">Quick Access</h1>
         <ul class="text-gray-500 mb-4">
-          <li><Link to ="">Home</Link></li>
-          <li><Link to ="">Why Vivida</Link></li>
-          <li><Link to ="">Services</Link></li>
-          <li><Link to ="">Our Partners</Link></li>
-          <li><Link to ="">Contact Us</Link></li>
+          <li><Link to ="/">Home</Link></li>
+          <li><Link to ="/Why-Us">Why Vivida</Link></li>
+          <li><Link to ="/What-We-Offer">Services</Link></li>
+          <li><Link to ="/Our-Partners">Our Partners</Link></li>
+          <li><Link to ="/Contact-Us">Contact Us</Link></li>
         </ul>
           <div class="mb-9 flex justify-center">
             <a href="#!" class="mr-4  ">

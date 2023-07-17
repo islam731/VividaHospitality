@@ -1,5 +1,5 @@
 import React from 'react'
-import Icon from './Icon'
+import Icon from '../Icon'
 import { Link } from 'react-router-dom'
 
 function Services() {
@@ -13,7 +13,7 @@ function Services() {
     <Icon animation="zoom-in" src="../../tech.gif" title="Leveraging Technology" text="Use social media and travel magazines to boost Checkin Hotels' brand awareness and drive bookings in the GCC market."/>
     <div  data-aos="fade-up" data-aos-duration="500" class="border-solid rounded-full bg-blue-950 p-7 mb-12 text-xl text-white font-medium mx-auto text-center">
     <button>
-      <Link to="/WhyUs">
+      <Link to="/What-We-Offer">
       More
       </Link>
     </button>
