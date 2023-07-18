@@ -9,7 +9,7 @@ const Socials = () => {
         <div>
             <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="h-7 w-7 m-7 text-[#1877f2] "
+  class="h-7 w-7 m-7 md:h-12 w-12 text-[#1877f2] "
   fill="currentColor"
   viewBox="0 0 24 24">
   <path
@@ -19,7 +19,7 @@ const Socials = () => {
     
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="h-7 w-7 m-7 text-[#c13584]"
+  class="h-7 w-7 m-7 text-[#c13584] md:h-12 w-12"
   fill="currentColor"
   viewBox="0 0 24 24">
   <path
@@ -28,7 +28,7 @@ const Socials = () => {
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="h-7 w-7 m-7 text-[#0077b5]"
+  class="h-7 w-7 m-7 text-[#0077b5] md:h-12 w-12"
   fill="currentColor"
   viewBox="0 0 24 24">
   <path

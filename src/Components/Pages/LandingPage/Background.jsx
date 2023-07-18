@@ -4,7 +4,7 @@ function Background(props) {
   let videoElement = document.getElementById("video");
   return (
     <>
-    <div class="absolute w-full overflow-hidden h-screen w-screen object-cover md:h-[45rem]">
+    <div class="absolute w-full overflow-hidden h-screen w-screen object-cover lg:h-[45rem]">
       <video className={props.class} autoPlay muted loop plays-inline>
           <source src={props.video} type="video/mp4" />
       </video>

@@ -6,9 +6,9 @@ const Rewards = () => {
     <>
     <div class=" md:flex md:items-center">
     <h1 class="text-center text-4xl"></h1> 
-    <Icon animation="zoom-in" src="../../icon.gif" title="Brand Recognition" text="Brand recognition is the foundation of customer loyalty."/>
-    <Icon animation="fade-right" src="../../icon2.gif" title="Higher Occupancy Rates" text="Brand recognition is the foundation of customer loyalty."/>
-    <Icon animation="fade-left" src="../../pie-chart-icon.gif" title="Expand Market Share" text="Brand recognition is the foundation of customer loyalty."/>
+    <Icon animation="zoom-in" src="../../icon.mp4" title="Brand Recognition" text="Brand recognition is the foundation of customer loyalty."/>
+    <Icon animation="zoom-in" src="../../icon2.mp4" title="Higher Occupancy Rates" text="Brand recognition is the foundation of customer loyalty."/>
+    <Icon animation="zoom-in" src="../../pie-chart-icon.mp4" title="Expand Market Share" text="Brand recognition is the foundation of customer loyalty."/>
     </div>
     </>
     

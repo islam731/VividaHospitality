@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <footer class="bg-black text-center text-white">
-      <Link to="/" class="flex items-center">
+      <footer class="bg-black text-center text-white ">
+      <Link to="/" class="flex items-center ]">
             <img
               src="../../logo2.svg"
-              class="h-20 md:h-28 md:mr-4 mx-auto mt-5"
+              class="h-20 mx-auto mt-5 md:h-28"
               alt="Vivida Logo"
             />
           </Link>
-        <div class="container pt-7">
+        <div class="pt-7">
         <h1 class="text-2xl mb-3">Quick Access</h1>
-        <ul class="text-gray-500 mb-4">
+        <ul class="text-gray-500 mb-12 md:text-2xl">
           <li><Link to ="/">Home</Link></li>
           <li><Link to ="/Why-Us">Why Vivida</Link></li>
           <li><Link to ="/What-We-Offer">Services</Link></li>
@@ -25,7 +25,7 @@ const Footer = () => {
             <a href="#!" class="mr-4  ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-4 w-4"
+                class="h-4 w-4 md:h-8 md:w-8"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -35,7 +35,7 @@ const Footer = () => {
             <a href="#!" class="mr-4 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-4 w-4"
+                class="h-4 w-4 md:h-8 md:w-8"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -45,7 +45,7 @@ const Footer = () => {
             <a href="#!" class="mr-2  ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-4 w-4"
+                class="h-4 w-4 md:h-8 md:w-8"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >

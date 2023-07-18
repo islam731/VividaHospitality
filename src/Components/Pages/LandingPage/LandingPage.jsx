@@ -22,7 +22,7 @@ function App() {
       <section class="bg-blue-950">
         <WhyVivida/>
       </section>
-      <section class="m-5">
+      <section class="overflow-hidden">
         <Services/>
       </section>
     </div>
